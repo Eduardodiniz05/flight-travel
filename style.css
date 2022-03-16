@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 body {
@@ -9,11 +9,48 @@ body {
     max-width: 1366px;
 }
 
+header {
+    height: 500px;
+    background-image: url(./src/img/backgrounds/london.jpg);
+    background-size: cover;
+}
 
-header div {
+.header-container-01 {
+    display: flex;
+    margin-left: 400px;
+    border: 1px solid #000000;
+    background-color: black;
+    width: 500px;
+    height: 50px;
+}
+.header-container-02 {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    margin-left: 400px;
+    width: 500px;
+    height: 200px;
+}
+
+header .flight {
     border: 1px solid rgb(253, 4, 4);
     background-color: rgb(253, 4, 4)
 }
+header .flight,
+ .hotel,
+ .rental {
+    color: #ffffff;
+}
+header .hotel,
+.rental {
+    border: 1px solid rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10)
+}
+
+.travel-to {
+    margin-left: 30px;
+}
+
+
 
 
 .logo,
