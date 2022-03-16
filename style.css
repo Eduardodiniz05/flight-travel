@@ -8,10 +8,14 @@ body {
     background-color: #DCDCDC;
     max-width: 1366px;
 }
-
+.container-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
 header {
     height: 500px;
-    background-image: url(./src/img/backgrounds/london.jpg);
+    background-image: url(./src/img/london.jpg);
     background-size: cover;
 }
 
